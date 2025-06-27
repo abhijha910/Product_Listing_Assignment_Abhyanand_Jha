@@ -27,22 +27,30 @@ A responsive and clean product listing interface built using **Next.js**, **Reac
 
 ## 🗂️ Project Structure
 
+Product_Listing_Assignment_Abhyanand_Jha/
 ├── components/
-│ └── Navbar.js # Navigation bar used across pages
+│   └── Navbar.js                 # Top navigation bar (optional but recommended)
 ├── data/
-│ └── products.js # Dummy product data
+│   └── products.js               # Local dummy product data array
 ├── pages/
-│ ├── index.js # Homepage with Browse Products button
-│ ├── products/
-│ │ ├── index.js # Product listing grid
-│ │ └── [id].js # Individual product detail page
-│ └── _app.js # Global wrapper with Tailwind CSS and Navbar
+│   ├── index.js                  # Home page ("/")
+│   ├── _app.js                   # Global Tailwind import and layout wrapper
+│   └── products/
+│       ├── index.js              # Product listing page ("/products")
+│       └── [id].js               # Dynamic product detail page ("/products/[id]")
 ├── public/
-│ └── images/ # Product images used in cards
+│   └── images/
+│       ├── product1.jpg
+│       ├── product2.jpg
+│       ├── product3.jpg
+│       └── product4.jpg
 ├── styles/
-│ └── globals.css # Tailwind base styles
-├── tailwind.config.js # Tailwind configuration
-└── README.md # Project overview and setup instructions
+│   └── globals.css               # Tailwind CSS base styles
+├── tailwind.config.js           # Tailwind configuration
+├── postcss.config.js            # PostCSS plugins (Tailwind + Autoprefixer)
+├── package.json                 # Project metadata & scripts
+├── README.md                    # Project documentation
+└── next.config.js               # Optional: Next.js custom config 
 
 ## Setup Instructions
 
