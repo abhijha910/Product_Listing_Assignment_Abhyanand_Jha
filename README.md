@@ -1,4 +1,4 @@
-# 🛍️ Cloudflex Frontend Assignment – Product Listing Interface
+# Cloudflex Frontend Assignment – Product Listing Interface
 
 A responsive and clean product listing interface built using **Next.js**, **React**, and **Tailwind CSS** — developed for the Round 2 Cloudflex Frontend Developer Internship Assignment.
 
@@ -15,17 +15,17 @@ A responsive and clean product listing interface built using **Next.js**, **Reac
 
 ## ✨ Features
 
-- ✅ Responsive **product grid** using Tailwind's utility classes
-- ✅ Individual **product detail page**: `/products/[id]`
-- ✅ **Hover effects** and smooth **transitions**
-- ✅ Fully **component-based structure**
-- ✅ **Local dummy data** (no API required)
-- ✅ Tailwind-configured layout using `globals.css` and `tailwind.config.js`
-- ✅ Mobile-first layout with grid on desktop/tablet, stacked cards on mobile
+-  Responsive **product grid** using Tailwind's utility classes
+-  Individual **product detail page**: `/products/[id]`
+-  **Hover effects** and smooth **transitions**
+-  Fully **component-based structure**
+-  **Local dummy data** (no API required)
+-  Tailwind-configured layout using `globals.css` and `tailwind.config.js`
+-  Mobile-first layout with grid on desktop/tablet, stacked cards on mobile
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 Product_Listing_Assignment_Abhyanand_Jha/
 ├── components/
@@ -73,5 +73,20 @@ npm run dev
 Then open [http://localhost:3000/products](http://localhost:3000/products) to view it.
 
 ---
+
+## Screenshots
+
+### Home Page
+![Home Page](./home.png)
+
+### Product Listing
+![Product List](./list.png)
+
+### Product Details - 1
+![Product Detail 1](./details1.png)
+
+### Product Details - 2
+![Product Detail 2](./details2.png)
+
 
 Created by **Abhyanand Jha** for Cloudflex Round 2 Assignment
