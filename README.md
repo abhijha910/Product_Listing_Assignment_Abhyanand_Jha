@@ -1,10 +1,10 @@
-# Cloudflex Frontend Assignment – Product Listing Interface
+# Product Listing Interface
 
-A responsive and clean product listing interface built using **Next.js**, **React**, and **Tailwind CSS** — developed for the Round 2 Cloudflex Frontend Developer Internship Assignment.
+A responsive and clean product listing interface built using **Next.js**, **React**, and **Tailwind CSS** — developed as part of a frontend development project for showcasing modern UI design and functionality.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Next.js** – React framework with built-in routing and server-side rendering
 - **React.js** – Component-based UI library
@@ -13,7 +13,7 @@ A responsive and clean product listing interface built using **Next.js**, **Reac
 
 ---
 
-## ✨ Features
+## Features
 
 -  Responsive **product grid** using Tailwind's utility classes
 -  Individual **product detail page**: `/products/[id]`
@@ -89,4 +89,4 @@ Then open [http://localhost:3000/products](http://localhost:3000/products) to vi
 ![Product Detail 2](./details2.png)
 
 
-Created by **Abhyanand Jha** for Cloudflex Round 2 Assignment
+Created by **Abhyanand Jha**
